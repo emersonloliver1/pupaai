@@ -1,0 +1,89 @@
+# Cursor rules
+
+#Vamos criar um aplicativo de gestão financeira para ajudar as pessoas a controlar suas finanças pessoais. Sempre leia a base de dados antes de começar a criar o aplicativo, sempre consulte o codebase.
+
+# 0 -O aplicativo deve ser capaz de:
+
+#1. Registrar transações financeiras (receitas, despesas, investimentos, etc.)
+#2. Classificar transações em categorias (alimentação, transporte, saúde, lazer, etc.)
+#3. Calcular o saldo total e o saldo em cada categoria
+#4. Gerar relatórios financeiros (resumo do mês, resumo do ano, etc.)
+#5. Fornecer dicas de economização e investimento (podemos usar a API do Yahoo Finance para fornecer dados de mercado e dicas de investimento)
+
+# 1 - O aplicativo deve ser fácil de usar e entender, com uma interface amigável e intuitiva.
+
+# 2 - Além disso, o aplicativo deve ser seguro e protegido, com autenticação de usuário e criptografia de dados (podemos usar a biblioteca Fernet do Python para criptografia de dados).
+
+#Vamos começar criando um diagrama de entidade-relacionamento (ER) para o aplicativo.
+
+# 3 - O aplicativo deve ter as seguintes entidades:
+
+#1. Usuário
+#2. Transação
+#3. Categoria
+#4. Conta
+#5. Investimento
+
+# 4 -  O aplicativo deve ter as seguintes relações:
+
+# 1. Um usuário pode ter várias transações, uma transação pertence a um usuário.
+# 2. Uma transação pertence a uma categoria, uma categoria pode ter várias transações.
+# 3. Uma transação pertence a uma conta, uma conta pode ter várias transações.
+# 4. Um investimento pertence a um usuário, um usuário pode ter vários investimentos.
+
+# Vamos criar um diagrama de entidade-relacionamento (ER) para o aplicativo.
+
+# 5 - Linguagens de programação
+
+#Vamos usar a linguagem de programação Python para criar o aplicativo.
+
+#Vamos usar a biblioteca Flask para criar a API do aplicativo.
+
+#Vamos usar a biblioteca Flask-SQLAlchemy para criar o banco de dados do aplicativo.
+
+#Vamos usar a biblioteca Flask-Login para criar a autenticação de usuário do aplicativo.
+
+# Podemos usar a biblioteca Flask-WTF para criar o formulário do aplicativo.
+
+# Podemos usar Javascript, HTML, CSS para a interface do aplicativo.
+
+# 6 - Toda parte anterior é para desenvolvimento local, para produção vamos usar o Cloud Run da Google. Primeiro iremos subir o aplicativo no Github, puxar para o Cloud Run e depois iremos criar o banco de dados no Firestore.
+
+# 7 - Vamos usar o Firebase para o banco de dados, autenticação e hospedagem.
+
+# Vamos usar o Firebase Authentication para autenticação de usuário.
+
+# Vamos usar o Firebase Realtime Database para o banco de dados.
+
+# Vamos usar o Firebase Hosting para hospedagem.
+
+# 8 - A autenticação pode ser feita com o Google, Apple, e-mail e senha.
+
+# 9 - Vamos usar o Firebase Cloud Functions para criar as funções do aplicativo.
+
+#Vamos usar o Firebase Cloud Firestore para criar o banco de dados do aplicativo.
+
+#Vamos usar o Firebase Cloud Storage para criar o armazenamento do aplicativo.
+
+#Vamos usar o Firebase Cloud Messaging para criar o sistema de notificação do aplicativo.
+
+# o banco de dados real será após deploy, no desenvolvimento local, vamos usar o SQLite ou semelhante.
+
+#lembre que utilizo windows
+
+#visual / layout será feito após o desenvolvimento do aplicativo para ser implementado no frontend globalmente.
+
+# 10 - Modulos do aplicativo
+
+# 1 - Modulo de autenticação
+# 2 - Modulo de banco de dados
+# 3 - Modulo de hospedagem
+# 4 - Modulo de notificação
+# 5 - Modulo de relatórios
+# 6 - Modulo de dicas de economização e investimento    
+
+# 11 - Nunca deixe o código muito acoplado, ou seja, sempre que possível, crie funções que sejam o mais independente possível. Mantenha a modularidade do código com pastas, subpastas, módulos, pacotes, arquivos, etc.
+
+#sempre atualize o requirements.txt
+
+
